@@ -1,3 +1,40 @@
-h1 {
-    color: palevioletred;
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Kaushan+Script&family=Lobster&family=Patua+One&family=Rubik:wght@300;400;500&family=Sniglet&display=swap');
+
+/* 
+font-family: 'Acme', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Patua One', cursive;
+font-family: 'Rubik', sans-serif;
+font-family: 'Sniglet', cursive;
+*/
+
+*{
+    box-sizing: border-box;
+}
+
+header, section {
+    overflow-x: hidden;
+}
+
+:root {
+    --Snigle: 'Sniglet', cursive;
+    --Rubik: 'Rubik', sans-serif;
+    --Puta: 'Patua One', cursive;
+    --Lobster: 'Lobster', cursive;
+    --light-black: #2e2c2caf;
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --light-gray: rgba(255,255,255,0.8);
+}
+
+header a {
+    font-family: var(--Snigle);
+    font-size: 0.9rem;
+    color: whitesmoke;
+}
+
+header {
+    background: #dd2476;
+    background: var(--bggradient);
 }
