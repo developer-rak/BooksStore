@@ -114,3 +114,15 @@ header .container .col-md-7 button {
     font-weight: bold;
 }
 /* ----------END HEADER---------- */
+
+/* ----------SECTION---------- */
+.section-1 {
+    padding: 20vmin 0;
+}
+
+.section-1 .row .col-md-6 .pray img {
+    opacity: 0.8;
+    width: 80%;
+    border-radius: 0.2em;
+}
+/* ----------END SECTION---------- */
