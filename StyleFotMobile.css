@@ -2,15 +2,19 @@
     header .navbar-brand {
         padding-left: 1rem;
     }
-
+    
     .section-1 .row .col-md-6 .panel {
         position: initial;
         width: initial;
         height: initial;
     }
-
+    
     .section-2 .cover {
         background-position: -25vmin -10vmin;
+    }
+
+    .cover .content > h1 {
+        font-size: 4.5vmin;
     }
 
     .numbers .rect {
@@ -35,9 +39,9 @@
         text-align: center !important;
     }
 
-    .section-3 .desktop i {
+    /* .section-3 .desktop i {
         font-size: 8vmin;
-    }
+    } */
 
     .section-4 .carousel-item {
         padding-left: 0.6rem;
@@ -48,4 +52,13 @@
         flex-direction: column;
         align-content: center;
     }
+
+    .section-4 .carousel-inner {
+        width: 24rem;
+    }
+
+    footer .row .col-md-2 {
+        margin-top: 8vmin;
+    }
+
 }
