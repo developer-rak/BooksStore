@@ -309,11 +309,11 @@ header .container .col-md-7 button {
 /* SECTION-4 */
 .section-4 .container h1 {
     font-size: 6vmin;
-    padding-top: 14vmin;
+    padding-top: 20vmin;
 }
 
 .section-4 .team {
-    padding: 10vmin 4vmin;
+    padding: 4vmin 4vmin;
 }
 
 .section-4 .card {
@@ -351,7 +351,38 @@ footer {
     padding: 14vmin 18vmin;
 }
 
+footer .text-muted {
+    color: #e5e5e5 !important;
+}
 footer p > span {
     color: #ff512f;
+}
+
+footer input {
+    border: none !important;
+}
+
+footer input::placeholder {
+    color: white !important;
+}
+
+footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none !important;
+    border-radius: 0;
+    padding-bottom: 2vmin;
+    text-align: ;
+}
+
+footer .input-group .input-group-text .fa-arrow-right {
+    padding-top: 1vmin;
+}
+
+footer .column i {
+    color: #dd2476;
+}
+
+footer .column i + i {
+    padding: 0 0.5em;
 }
 /* ----------END FOOTER---------- */
