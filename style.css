@@ -24,6 +24,11 @@ dd2476
     --light-gray: rgba(255,255,255,0.8);
 }
 
+a,a:hover {
+    text-decoration: none;
+    color: #dd2476;
+}
+
 
 *{
     box-sizing: border-box;
@@ -382,11 +387,11 @@ footer .input-group .input-group-text .fa-arrow-right {
     padding-top: 1vmin;
 }
 
-footer .column i {
+footer .column a {
     color: #dd2476;
 }
 
-footer .column i + i {
+footer .column a + a {
     padding: 0 0.5em;
 }
 /* ----------END FOOTER---------- */
